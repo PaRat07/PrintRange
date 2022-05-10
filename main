@@ -1,0 +1,12 @@
+#include <iostream>
+#include <string>
+#include <vector>
+#include <algorithm>
+using namespace std;
+
+template<typename Iterator>
+void PrintRange(Iterator lhs, Iterator rhs) {
+	while (lhs != rhs) {
+		std :: cout << *lhs ++ << ' ';
+	}
+}
